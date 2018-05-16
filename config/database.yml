@@ -22,7 +22,7 @@ development:
   pool: 5
   timeout: 5000
 
-test:
+test: "postgresql://localhost/myapp_test"
   adapter: postgresql
   database: my_database_test
   pool: 5

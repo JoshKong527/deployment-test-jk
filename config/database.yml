@@ -21,7 +21,7 @@ test:
   <<: *defaultdatabase: db/test/sqlite3
 
   production:
-    adapter: postgresql
+  adapter: postgresql
     encoding: unicode
     databse: blog_production
     username: myapp
